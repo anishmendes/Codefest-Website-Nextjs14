@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clash+Display&display=swap");
+
+@font-face {
+  font-family: "font-clash-display";
+  src: local("font-clash-display"),
+    url("/fonts/ClashDisplay-Medium.otf") format("otf");
+}
+.linearg1 {
+  border: 5.7px solid;
+  border-radius: 24px;
+  border: double 5.77px transparent;
+  background-image: linear-gradient(#333333, #333333),
+    linear-gradient(
+      to right,
+      #fb2cff 0%,
+      #9b6fee 20%,
+      #7b7fea 40%,
+      #18b2de 100%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.linearg2 {
+  border: 5.7px solid;
+  border-radius: 24px;
+  border: double 5.77px transparent;
+  background-image: linear-gradient(#333333, #333333),
+    linear-gradient(
+      to right,
+      #ffdb00 100%,
+      #ffdb00 0%,
+      #ffdb00 0%,
+      #ffdb00 100%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.linearg3{
+  border: 5.7px solid;
+  border-radius: 24px;
+  border: double 5.77px transparent;
+  background-image: linear-gradient(#333333, #333333),
+    linear-gradient(
+      to right,
+      #0000ff 100%,
+      #0000ff 0%,
+      #0000ff 0%,
+      #21ceff 100%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}

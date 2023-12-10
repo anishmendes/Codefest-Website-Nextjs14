@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Staatliches&family=Zen+Tokyo+Zoo&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"); */
+
+@font-face {
+  font-family: "font-clash-display";
+  src: local("font-clash-display"),
+    url("/fonts/font-clash-display.otf") format("otf");
+}
